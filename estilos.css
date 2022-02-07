@@ -1,0 +1,45 @@
+body{
+    background-image:url(img/fondo.jpeg);
+    background-size: cover;
+}
+
+h1, header, h2{
+    padding: 1em;
+}
+
+header a, .comprar{
+    padding: 10px;
+    color: black;
+    background-color: aliceblue;
+}
+
+.comprar{
+    margin-left: 2em;
+}
+
+header a:hover{
+    text-decoration: none;
+}
+
+table, p{
+    margin: 2em;
+}
+
+ul{
+    list-style: none;
+}
+li {
+    padding: 1em;
+}
+
+li a{
+    background-color: white;
+    padding: 1em;
+    color: black;
+    border-radius: 1em;
+}
+
+li a:hover{
+    color: blue;
+    text-decoration:solid;
+}
